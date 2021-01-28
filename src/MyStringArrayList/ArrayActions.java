@@ -32,11 +32,6 @@ public class ArrayActions {
             String string =  array[index];
             array[index] = null;
             int tmp = index;
-            while(tmp < countAction){
-                array[tmp] =  array[tmp+1];
-                array[tmp+1] = null;
-                tmp++;
-            }
             countAction--;
             return string;
         } else {
@@ -76,6 +71,7 @@ public class ArrayActions {
              System.out.println(i + "."+ arrayActions.get(i) + " ");
 
         }
+        arrayActions.remove(6);
         System.out.println(arrayActions);
     }
 }
