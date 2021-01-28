@@ -31,7 +31,6 @@ public class ArrayActions {
         if(index < countAction){
             String string =  array[index];
             array[index] = null;
-            int tmp = index;
             countAction--;
             return string;
         } else {
