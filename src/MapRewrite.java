@@ -1,4 +1,4 @@
-import org.w3c.dom.ls.LSOutput;
+
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -30,10 +30,6 @@ public class MapRewrite {
             System.out.println("Житель города" + persons.get(town));
 
         }
-
-
-
-
 
 
     }
